@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+    color: #000;
+    font-weight: normal;
+    line-height: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    list-style: square;
+}
+
+.container{
+    margin-top: 25px;
+    margin-left: 20px;
+    
+}
+
+.container .box-1{
+    margin-left: 300px;
+}
+
+.container .box-1 h1 {
+    margin-left: 150px;
+    color: brown;
+}
+
+.container .box-1 img {
+    height: 470px;
+    width: 600px;
+}
+.container .box-2 {
+    display: flex;
+    width: 100%;
+}
+
+.container .box-2 .recipes h2 {
+    margin-left: 300px;
+    color: rgb(106, 2, 2);
+}
+
+.container .box-2 ul {
+    list-style: none;
+    list-style: square;
+    margin-left: 320px;
+    width: 100%;
+    color: #000;
+ 
+}
+
+.container .box-2 .order h2 {
+    margin-left: 200px;
+    width: 100%;
+    color: rgb(106, 2, 2);
+}
+
+.container .box-2 ol{
+    margin-left: 200px;
+   
+}
